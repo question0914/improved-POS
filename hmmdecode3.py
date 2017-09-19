@@ -21,6 +21,7 @@ def splitword(s):
     prob = temp[len(temp)-1]
     return word, prob
 
+
 # Create model
 with open("hmmmodel.txt", 'r', encoding='utf-8')as modelfile:
     data = modelfile.read()
